@@ -22,4 +22,12 @@ public class CashbackHackServiceTest {
         assertEquals(actual, expected);
     }
 
+    @Test
+    void shouldPurchase1000() {
+        int amount = 1000;
+        int actual = 1000;
+        int expected = 0;
+        assertEquals(actual, expected);
+    }
+
 }
